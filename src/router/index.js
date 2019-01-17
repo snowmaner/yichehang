@@ -8,8 +8,8 @@ import VueRouter from 'vue-router'
 vue.use(VueRouter)
 
 const router = new VueRouter({
-    mode:'history',
-    linkActiveClass:'more-nav-active',//设置选中样式
+    // mode:'history',
+    // linkActiveClass:'more-nav-active',//设置选中样式
     routes:[
         {
             path:'/',
